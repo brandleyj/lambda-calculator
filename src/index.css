@@ -13,6 +13,11 @@ code {
 
 .buttons {
 	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	box-shadow: 0 2px black;
+	font-size: 2rem;
+	margin: 2vh;
 }
 
 #numbtn {
@@ -31,4 +36,20 @@ code {
 	background: #3db5e5;
 	border: none;
 	color: #f4f6f9;
+}
+
+.App {
+	display: flex;
+	width: 100%;
+}
+
+.rightSide {
+	display: flex;
+	flex-direction: column;
+}
+
+.display {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }

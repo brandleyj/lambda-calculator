@@ -1,10 +1,13 @@
 import React from "react";
+import { directive } from "@babel/types";
 
 const OperatorButton = props => {
 	return (
-		<button className="buttons" id="opbtn">
-			{props.operators.value}
-		</button>
+		<div className="rightSide">
+			<button className="buttons" id="opbtn">
+				{props.operators.value}
+			</button>
+		</div>
 	);
 };
 

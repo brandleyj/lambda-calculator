@@ -20,13 +20,13 @@ function App() {
 	return (
 		<div className="container">
 			<Logo />
+			<Display />
 			<div className="App">
-				<Display />
 				<div className="leftSide">
 					<Specials />
 					<Numbers />
 				</div>
-				<div className="rightSide">
+				<div>
 					<Operators />
 				</div>
 			</div>
