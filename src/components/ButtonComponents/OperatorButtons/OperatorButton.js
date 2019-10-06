@@ -1,9 +1,14 @@
 import React from "react";
+import { directive } from "@babel/types";
 
-const OperatorButton = () => {
-  return (
-    <>
-      {/* Display a button element rendering the data being passed down from the parent container on props */}
-    </>
-  );
+const OperatorButton = props => {
+	return (
+		<div className="rightSide">
+			<button className="buttons" id="opbtn">
+				{props.operators.value}
+			</button>
+		</div>
+	);
 };
+
+export default OperatorButton;
